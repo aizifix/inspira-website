@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
+
+.booth-container {
+    border: solid;
+    display: flex;
+}
+
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+iframe {
+    width: 80%;
+    height: 80%;
+    border: solid;
+    color: #00f2f5;
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgba(0, 218, 247, 0.5),
+    0 0 10px rgba(0, 218, 247, 0.5),
+    0 0 20px rgba(0, 218, 247, 0.5),
+    0 0 30px rgba(0, 218, 247, 0.5);
+}
+
+.back-button {
+    position: absolute;
+    margin-top: 10px;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+
+.back-button a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.back-button i {
+    margin-right: 10px;
+}
+
+.back-button a:hover {
+    color: #00f2f5;
+}
+
+.chill-booth-text {
+    position: absolute;
+    top: 10px;
+    margin-top: 5px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    z-index: 1;
+}
